@@ -1,124 +1,129 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css"> 
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/normalize.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+</head>
+
 <body>
-    <header class="header">
-      <div class="header__bg">
-        <img src="img/header-bg.png" alt="">
+  <header class="header">
+    <div class="header__bg">
+      <img src="img/header-bg.png" alt="">
+    </div>
+    <div class="header__inner">
+      <p class="logo_title">ROBO.SCHOOL</p>
+      <ul class="menu">
+        <li class="menu__list">
+          <a href="#">О школе</a>
+        </li>
+        <li class="menu__list">
+          <a href="#">Тренеры</a>
+        </li>
+        <li class="menu__list">
+          <a href="#">Стоимость</a>
+        </li>
+      </ul>
+      <a href="tel" class="input__phone">
+        +3800000000000
+      </a>
+    </div>
+    <div class="header__bottom">
+      <h1 class="title">ROBO SCHOOL</h1>
+      <p class="header__bottom-text">Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
+      <button class="header__bottom-btn">
+        Записаться на курс
+      </button>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <p class="text__box-txt">
+        <span>Robo School</span> – учреждение для формирования кадрового педагогического резерва в сфере робототехники и
+        программирования
+      </p>
+      <div class="text__box">
+        <div class="text__box-info">
+          <div class="info-num">
+            <p class="info-num__red">10</p>
+            <p class="info-num__black">
+              УМК по различным направлениям по робототехнике
+            </p>
+          </div>
+          <div class="info-num">
+            <p class="info-num__red">20</p>
+            <p class="info-num__black">
+              Школ, в которых запущена робототехника
+            </p>
+          </div>
+          <div class="info-num">
+            <p class="info-num__red">100</p>
+            <p class="info-num__black">
+              Педагогов прошедших курсы повышения квалификации
+            </p>
+          </div>
+          <div class="info-num">
+            <p class="info-num__red">10 000</p>
+            <p class="info-num__black">
+              Обученных детей на базе собственных центров
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="header__inner">
-        <p class="logo_title">ROBO.SCHOOL</p>
-        <ul class="menu">
-          <li class="menu__list">
-            <a href="#">О школе</a>
-          </li>
-          <li class="menu__list">
-            <a href="#">Тренеры</a>
-          </li>
-          <li class="menu__list">
-            <a href="#">Стоимость</a>
-          </li>
-        </ul>
-        <a href="tel" class="input__phone">
-          +3800000000000
-        </a> 
-      </div>
-      <div class="header__bottom">
-        <h1 class="title">ROBO SCHOOL</h1>
-        <p class="header__bottom-text">Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
-        <button class="header__bottom-btn">
-          Записаться на курс
-        </button>
-      </div>
-    </header>
-    <main class="main">
+    </div>
+    <section class="result">
       <div class="container">
-        <p class="text__box-txt">
-          <span>Robo School</span> – учреждение для формирования кадрового педагогического резерва в сфере робототехники и программирования
-        </p>
-        <div class="text__box">
-          <div class="text__box-info">
-            <div class="info-num">
-              <p class="info-num__red">10</p>
-              <p class="info-num__black">
-                УМК по различным направлениям по робототехнике
-              </p>
+        <div class="result-course">
+          <h3 class="result-course__title">
+            Что вы получите после курса
+          </h3>
+          <div class="result-course__card">
+            <div class="course__card-box">
+              <h6 class="course__card-title">Удостоверение</h6>
+              <p class="course__card-text">Дающее право преподавать робототехнику для детей 6-12 лет в образовательных
+                учреждениях</p>
             </div>
-            <div class="info-num">
-              <p class="info-num__red">20</p>
-              <p class="info-num__black">
-                Школ, в которых запущена робототехника
-              </p>
+            <div class="course__card-box">
+              <h6 class="course__card-title">Знания</h6>
+              <p class="course__card-text">По основам разработки учебно-методических комплексов
+                по робототехнике и программированию</p>
             </div>
-            <div class="info-num">
-              <p class="info-num__red">100</p>
-              <p class="info-num__black">
-                Педагогов прошедших курсы повышения квалификации
-              </p>
-            </div>
-            <div class="info-num">
-              <p class="info-num__red">10 000</p>
-              <p class="info-num__black">
-                Обученных детей на базе собственных центров
-              </p>
+            <div class="course__card-box">
+              <h6 class="course__card-title course__card-titleinfo">Практику</h6>
+              <p class="course__card-text">Возможность пройти практику по преподаванию робототехники на базе R:ED LAB (в
+                оффлайн или онлайн формате)</p>
             </div>
           </div>
         </div>
       </div>
-      <section class="result">
-        <div class="container">
-          <div class="result-course">
-            <h3 class="result-course__title">
-              Что вы получите после курса
-            </h3>
-            <div class="result-course__card">
-              <div class="course__card-box">
-                <h6 class="course__card-title">Удостоверение</h6>
-                <p class="course__card-text">Дающее право преподавать робототехнику для детей 6-12 лет в образовательных учреждениях</p>
-              </div>
-              <div class="course__card-box">
-                <h6 class="course__card-title">Знания</h6>
-                <p class="course__card-text">По основам разработки учебно-методических комплексов
-                по робототехнике и программированию</p>
-              </div>
-              <div class="course__card-box">
-                <h6 class="course__card-title course__card-titleinfo">Практику</h6>
-                <p class="course__card-text">Возможность пройти практику по преподаванию робототехники на базе R:ED LAB (в оффлайн или онлайн формате)</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="slick-section">
-        <div class="container">
-          <div class="slider multiple-items">
-            <div class="slider-box">
-              <img class="slider-box__img" src="img/content/1.png" alt="">
-              <h3 class="slider-box__title">Ирина Лайм</h3>
-              <p class="slider-box__text">преподаватель по робототехнике</p>
-              <a href="#" class="slider-box__more">Подробнее</a>
+    </section>
+    <section class="slick-section">
+      <div class="container">
+        <div class="slider multiple-items">
+          <div class="slider-box">
+            <img class="slider-box__img" src="img/content/1.png" alt="">
+            <h3 class="slider-box__title">Ирина Лайм</h3>
+            <p class="slider-box__text">преподаватель по робототехнике</p>
+            <a href="#" class="slider-box__more">Подробнее</a>
+
+
+
+
           </div>
           <div class="slider-box">
             <img class="slider-box__img" src="img/content/2.png" alt="">
             <h3 class="slider-box__title">Марина Орлова</h3>
             <p class="slider-box__text">преподаватель по робототехнике</p>
-            <a href="#" class="slider-box__more">Подробнее</a>
-            <div class="more__card" id="block1">
-              <div class="more__card-header">
-                
-              </div>
-            </div>
+            <a href="#block2" class="slider-box__more">Подробнее</a>
+
           </div>
           <div class="slider-box">
             <img class="slider-box__img" src="img/content/3.png" alt="">
@@ -139,16 +144,90 @@
             <a href="#" class="slider-box__more">Подробнее</a>
           </div>
         </div>
-      </section>
-    </main>
-    
-    
-    
-    
-    
-    
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="slick/slick.min.js"></script>
-    <script src="js/main.js"></script>
+    </section>
+  </main>
+
+  <div class="more__card" id="block2">
+    <div class="more__card-header">
+      <img class="card-header__img" src="img/content/2.png" alt="">
+      <div class="cardbox">
+        <div class="cardbox-info">
+          <h4 class="cardbox-title">Марина Орлова</h4>
+          <p class="cardbox-text">преподаватель по робототехнике</p>
+          <a class="social-link__img" href="#">
+            <img src="img/facebook.svg" alt="">
+          </a>
+          <a class="social-link__img" href="#">
+            <img src="img/insta.svg" alt="">
+          </a>
+        </div>
+        <a class="exit" href="#">Закрыть</a>
+      </div>
+    </div>
+    <div class="info-tab">
+      <a href="#tab-1" class="tab tab--active info-tab__item">Образование</a>
+      <a href="#tab-2" class="tab info-tab__item">Опыт работы</a>
+      <a href="#tab-3" class="tab info-tab__item">Награды</a>
+    </div>
+    <div class="info-content">
+      <div id="tab-1" class="tabs-content tabs-content--active info-content__item">
+        <p class="info-content__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor totam, corrupti exercitationem illum ea
+          repellendus quaerat modi voluptas itaque dolore perspiciatis blanditiis fugit vero. Veritatis officiis aut
+          tenetur minima error!
+        </p>
+        <h5 class="info-content__title">
+          Курсы и тренинги
+        </h5>
+        <p class="info-content__textbot">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore reprehenderit dolor odio placeat asperiores
+          quasi, impedit assumenda nostrum amet illum nemo neque debitis perspiciatis hic quaerat dicta maxime deleniti
+          explicabo.
+        </p>
+      </div>
+      <div id="tab-2" class="tabs-content info-content__item">
+        <p class="info-content__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor totam, corrupti exercitationem illum ea
+          repellendus
+          quaerat modi voluptas itaque dolore perspiciatis blanditiis fugit vero. Veritatis officiis aut tenetur minima
+          error!
+        </p>
+        <h5 class="info-content__title">
+          Курсы и тренинги
+        </h5>
+        <p class="info-content__textbot">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore reprehenderit dolor odio placeat asperiores
+          quasi,
+          impedit assumenda nostrum amet illum nemo neque debitis perspiciatis hic quaerat dicta maxime deleniti
+          explicabo.
+        </p>
+      </div>
+      <div id="tab-3" class="tabs-content info-content__item">
+        <p class="info-content__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor totam, corrupti exercitationem illum ea
+          repellendus
+          quaerat modi voluptas itaque dolore perspiciatis blanditiis fugit vero. Veritatis officiis aut tenetur minima
+          error!
+        </p>
+        <h5 class="info-content__title">
+          Курсы и тренинги
+        </h5>
+        <p class="info-content__textbot">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore reprehenderit dolor odio placeat asperiores
+          quasi,
+          impedit assumenda nostrum amet illum nemo neque debitis perspiciatis hic quaerat dicta maxime deleniti
+          explicabo.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
